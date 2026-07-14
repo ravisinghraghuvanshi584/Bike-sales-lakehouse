@@ -13,6 +13,7 @@ SQL Functions Used:
 ===============================================================================
 */
 -- Which categories contribute the most to overall sales?
+
 WITH category_sales AS (
     SELECT
         p.category,
