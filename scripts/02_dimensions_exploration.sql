@@ -18,7 +18,7 @@ SELECT DISTINCT
 FROM gold.dim_customers
 ORDER BY country;
 
--- Retrieve a list of unique categories, subcategories, and products
+-- Retrieve a list of unique categories, subcategories, and products from products table
 SELECT DISTINCT 
     category, 
     subcategory, 
